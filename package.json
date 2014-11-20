@@ -1,0 +1,16 @@
+{
+  "name": "home-fix",
+  "main": "./lib/home-fix",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationCommands": {
+    "atom-workspace": "home-fix:toggle"
+  },
+  "repository": "https://github.com/atom/home-fix",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}

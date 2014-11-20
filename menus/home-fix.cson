@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle home-fix'
+      'command': 'home-fix:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'home-fix'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'home-fix:toggle'
+        }
+      ]
+    ]
+  }
+]
