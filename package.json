@@ -1,15 +1,14 @@
 {
   "name": "home-fix",
   "main": "./lib/home-fix",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.1.0",
+  "description": "When cursor is in the indent area, makes the home key go to the beginning of line.",
   "activationCommands": {
-    "atom-workspace": "home-fix:toggle"
   },
-  "repository": "https://github.com/atom/home-fix",
+  "repository": "https://github.com/mark-hahn/home-fix",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">0.130.0"
   },
   "dependencies": {
   }
