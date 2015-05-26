@@ -1,7 +1,7 @@
 {
   "name": "home-fix",
   "main": "./lib/home-fix",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "When cursor is in the indent area, makes the home key go to the beginning of line.",
   "activationCommands": {
   },

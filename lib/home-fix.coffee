@@ -1,8 +1,8 @@
 ###
   lib/home-fix.coffee
-###
+### 
 module.exports =
-  activate: ->
+   activate: ->
     atom.commands.add '.workspace .editor', 'home-fix:move-to-first-character-of-line', ->
       if (editor = atom.workspace.getActiveTextEditor())
         {column, row} = editor.getCursorBufferPosition()

@@ -1,2 +1,2 @@
-'.workspace .editor':
+'.atom-text-editor':
   'home': 'home-fix:move-to-first-character-of-line'
